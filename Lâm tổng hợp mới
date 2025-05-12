@@ -69,12 +69,9 @@ getgenv().SlowLoad = true loadstring(game:HttpGet("https://api.luarmor.net/files
 loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })   AddButton(Tab1o, {
-     Name = "Xero hub",
+     Name = "VxezeHub",
     Callback = function()
-	  getgenv().Team = "Marines"
-getgenv().Hide_Menu = false
-getgenv().Auto_Execute = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubMain"))()
   end
   })   AddButton(Tab1o, {
      Name = "Teddy hub key là teddycomback",
